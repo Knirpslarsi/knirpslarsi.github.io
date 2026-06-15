@@ -156,7 +156,7 @@
         }
 
         .hero-title-container {
-            min-height: 80px;
+            min-height: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -169,34 +169,26 @@
             letter-spacing: -1.5px;
             line-height: 1.2;
             margin: 0;
+            height: 100%;
         }
 
         .animated-text {
-            background: linear-gradient(90deg, var(--accent-purple), var(--accent-purple-light), var(--accent-purple));
+            background: linear-gradient(90deg, var(--accent-purple) 0%, var(--accent-purple-light) 25%, var(--accent-purple) 50%, var(--accent-purple-light) 75%, var(--accent-purple) 100%);
             background-size: 200% auto;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: shimmer 3s linear infinite;
+            animation: shimmer 4s linear infinite;
+            display: inline-block;
         }
 
         @keyframes shimmer {
             0% {
                 background-position: 0% center;
             }
-            50% {
-                background-position: 100% center;
-            }
             100% {
-                background-position: 0% center;
+                background-position: 200% center;
             }
-        }
-
-        .hero-highlight {
-            background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-purple-light) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
         }
 
         .hero p {
@@ -270,6 +262,7 @@
             align-items: center;
             justify-content: center;
             transition: all 0.3s ease;
+            text-decoration: none;
         }
 
         .btn-social:hover {
@@ -329,6 +322,9 @@
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
+            text-decoration: none;
+            display: block;
+            color: inherit;
         }
 
         .card::before {
@@ -402,6 +398,81 @@
             color: var(--accent-purple);
         }
 
+        /* Project Detail Page */
+        .project-header {
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%);
+            padding: 4rem 2rem;
+            border-bottom: 1px solid var(--border-color);
+            margin-top: 20px;
+        }
+
+        .project-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .project-header p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-purple);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            gap: 1rem;
+            color: var(--accent-purple-light);
+        }
+
+        .project-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .project-section {
+            margin: 3rem 0;
+        }
+
+        .project-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            border: none;
+            padding: 0;
+        }
+
+        .project-section h2::after {
+            display: none;
+        }
+
+        .tech-tags {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+
+        .tech-tag {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: rgba(168, 85, 247, 0.15);
+            border: 1px solid var(--accent-purple);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--accent-purple);
+            font-weight: 500;
+        }
+
         /* Footer */
         footer {
             background: var(--bg-secondary);
@@ -442,6 +513,10 @@
             .btn {
                 width: 100%;
                 max-width: 300px;
+            }
+
+            .project-header h1 {
+                font-size: 1.8rem;
             }
         }
     </style>
