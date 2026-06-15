@@ -20,17 +20,15 @@
 
 title: Knirpslarsi Homepage
 email: support@knirpslarsi.de
-description: >- # this means to ignore newlines until "baseurl:"
-  Meine
-  Tolle
-  Beschreibung
+description: >- 
+  Meine persönliche Website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://knirpslarsi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: knirpslarsi_
 github_username:  Knirpslarsi
 
 # Build settings
-theme: minima
+theme: null
 plugins:
   - jekyll-feed
 

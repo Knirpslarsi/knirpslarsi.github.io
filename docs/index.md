@@ -1,19 +1,15 @@
 ---
 layout: default
-title: Startseite
+title: Knirpslarsi
 ---
 
-# Willkommen! 👋
-
-Hi, ich bin Knirpslarsi. Das ist meine persönliche Website.
-
-## Schnelle Links
-
-<div style="margin-top: 20px;">
-  <a href="/about" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; margin-right: 10px;">Über mich</a>
-  <a href="/projects" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px;">Projekte</a>
-</div>
-
----
-
-Einige kurze Infos über mich oder was ich hier mache...
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm Knirpslarsi</h1>
+        <p>Creative developer and digital enthusiast. I build beautiful, functional experiences on the web.</p>
+        <div class="btn-group">
+            <a href="/about" class="btn btn-primary">Learn More</a>
+            <a href="/projects" class="btn btn-secondary">View My Work</a>
+        </div>
+    </div>
+</section>
