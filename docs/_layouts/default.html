@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - Knirpslarsi</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
             --bg-dark: #111111;
@@ -154,12 +155,41 @@
             max-width: 800px;
         }
 
+        .hero-title-container {
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
         .hero h1 {
             font-size: clamp(2.5rem, 8vw, 4.5rem);
             font-weight: 700;
-            margin-bottom: 1.5rem;
             letter-spacing: -1.5px;
             line-height: 1.2;
+            margin: 0;
+        }
+
+        .animated-text {
+            background: linear-gradient(90deg, var(--accent-purple), var(--accent-purple-light), var(--accent-purple));
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmer 3s linear infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: 0% center;
+            }
+            50% {
+                background-position: 100% center;
+            }
+            100% {
+                background-position: 0% center;
+            }
         }
 
         .hero-highlight {
@@ -172,7 +202,7 @@
         .hero p {
             font-size: 1.15rem;
             color: var(--text-secondary);
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             line-height: 1.8;
             font-weight: 300;
             max-width: 600px;
@@ -196,7 +226,10 @@
             border: 2px solid var(--accent-purple);
             text-decoration: none;
             transition: all 0.3s ease;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
             letter-spacing: 0.5px;
         }
 
@@ -222,6 +255,36 @@
             border-color: var(--accent-purple-light);
             color: var(--accent-purple-light);
             transform: translateY(-2px);
+        }
+
+        .btn-social {
+            width: 50px;
+            height: 50px;
+            padding: 0;
+            border-radius: 50%;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .btn-social:hover {
+            background: var(--accent-purple);
+            border-color: var(--accent-purple);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.2);
+        }
+
+        .social-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
         }
 
         /* Content Sections */
@@ -337,40 +400,6 @@
 
         .text-content li::marker {
             color: var(--accent-purple);
-        }
-
-        /* About Stats */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin: 3rem 0;
-        }
-
-        .stat-box {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 2rem;
-            text-align: center;
-            transition: all 0.3s ease;
-        }
-
-        .stat-box:hover {
-            border-color: var(--accent-purple);
-            transform: translateY(-3px);
-        }
-
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--accent-purple);
-            margin-bottom: 0.5rem;
-        }
-
-        .stat-label {
-            color: var(--text-secondary);
-            font-weight: 300;
         }
 
         /* Footer */
