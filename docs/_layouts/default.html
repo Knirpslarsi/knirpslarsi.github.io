@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-dark: #0a0a0a;
+            --bg-dark: #111111;
             --bg-secondary: #1a1a1a;
             --accent-purple: #a855f7;
             --accent-purple-light: #c084fc;
@@ -41,7 +41,7 @@
             left: 0;
             right: 0;
             z-index: 1000;
-            background: rgba(10, 10, 10, 0.8);
+            background: rgba(17, 17, 17, 0.8);
             backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-color);
             padding: 1rem 0;
@@ -122,7 +122,6 @@
             justify-content: center;
             text-align: center;
             padding: 4rem 2rem;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 100%);
             position: relative;
             overflow: hidden;
         }
@@ -134,7 +133,7 @@
             right: -10%;
             width: 500px;
             height: 500px;
-            background: radial-gradient(circle, rgba(168, 85, 247, 0.1) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, transparent 70%);
             border-radius: 50%;
         }
 
@@ -145,33 +144,40 @@
             left: 10%;
             width: 400px;
             height: 400px;
-            background: radial-gradient(circle, rgba(168, 85, 247, 0.08) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(168, 85, 247, 0.1) 0%, transparent 70%);
             border-radius: 50%;
         }
 
         .hero-content {
             position: relative;
             z-index: 1;
-            max-width: 700px;
+            max-width: 800px;
         }
 
         .hero h1 {
-            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
             font-weight: 700;
-            margin-bottom: 1rem;
-            letter-spacing: -1px;
-            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-purple-light) 100%);
+            margin-bottom: 1.5rem;
+            letter-spacing: -1.5px;
+            line-height: 1.2;
+        }
+
+        .hero-highlight {
+            background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-purple-light) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
 
         .hero p {
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             color: var(--text-secondary);
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
             line-height: 1.8;
             font-weight: 300;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .btn-group {
@@ -325,12 +331,46 @@
 
         .text-content li {
             color: var(--text-secondary);
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
             font-weight: 300;
         }
 
         .text-content li::marker {
             color: var(--accent-purple);
+        }
+
+        /* About Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .stat-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .stat-box:hover {
+            border-color: var(--accent-purple);
+            transform: translateY(-3px);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-purple);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-weight: 300;
         }
 
         /* Footer */

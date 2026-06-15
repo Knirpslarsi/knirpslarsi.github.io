@@ -7,22 +7,25 @@ title: About
     <div class="container">
         <h2>About Me</h2>
         <div class="text-content">
-            <p>Welcome to my corner of the internet. I'm a passionate developer with a love for clean code and beautiful design. My journey in tech has been filled with learning, growth, and countless late-night debugging sessions.</p>
+            <p>Welcome! I'm a creative developer with a passion for building exceptional digital experiences. I believe that great technology should be both powerful and beautiful.</p>
 
-            <h3>What I Do</h3>
-            <p>I specialize in creating web experiences that are not only visually stunning but also intuitive and user-friendly. From frontend development to full-stack solutions, I'm always excited to tackle new challenges.</p>
+            <h3>My Journey</h3>
+            <p>My path in tech has been driven by curiosity and a desire to learn. Every project teaches me something new, and I embrace challenges as opportunities to grow. From my first "Hello World" to complex web applications, it's been an exciting ride.</p>
             
-            <h3>My Interests</h3>
+            <h3>What I'm Good At</h3>
             <ul>
-                <li>Web Development & Design</li>
-                <li>User Experience & Interface Design</li>
-                <li>Modern Web Technologies</li>
-                <li>Open Source Contributions</li>
-                <li>Teaching & Mentoring</li>
+                <li>Frontend Development & Modern Web Technologies</li>
+                <li>User Interface & Experience Design</li>
+                <li>Full-Stack Web Applications</li>
+                <li>Performance Optimization</li>
+                <li>Open Source Development</li>
             </ul>
             
-            <h3>Let's Connect</h3>
-            <p>I'm always open to interesting projects and collaborations. Feel free to reach out if you'd like to work together or just want to chat about tech.</p>
+            <h3>Beyond Code</h3>
+            <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing knowledge with other developers. I'm passionate about mentoring and helping others grow in their tech journey.</p>
+            
+            <h3>Let's Collaborate</h3>
+            <p>I'm always interested in meaningful projects and connections. Whether you have an exciting idea, need a collaborator, or just want to chat about tech—let's get in touch!</p>
         </div>
     </div>
 </section>

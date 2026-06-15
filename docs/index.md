@@ -5,11 +5,11 @@ title: Knirpslarsi
 
 <section class="hero">
     <div class="hero-content">
-        <h1>Hi, I'm Knirpslarsi</h1>
-        <p>Creative developer and digital enthusiast. I build beautiful, functional experiences on the web.</p>
+        <h1>Build, Create, <span class="hero-highlight">Inspire</span></h1>
+        <p>I'm a developer passionate about creating beautiful digital experiences. Combining clean code with modern design to bring ideas to life.</p>
         <div class="btn-group">
-            <a href="/about" class="btn btn-primary">Learn More</a>
-            <a href="/projects" class="btn btn-secondary">View My Work</a>
+            <a href="/about" class="btn btn-primary">Get to Know Me</a>
+            <a href="/projects" class="btn btn-secondary">See My Work</a>
         </div>
     </div>
 </section>
