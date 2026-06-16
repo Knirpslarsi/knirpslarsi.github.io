@@ -29,7 +29,7 @@ title: "Karl - Discord Bot"
             <ul>
                 <li><strong>Ticket System:</strong> Streamlined support ticket management for handling member requests and issues</li>
                 <li><strong>Code System:</strong> Custom invite codes for community channels with tracking and management</li>
-                <li><strong>Autogramm Cards:</strong> Digital autograph card system for community interaction and engagement</li>
+                <li><strong>Autogramm Cards:</strong> Autograph card system for community interaction and engagement</li>
                 <li><strong>Welcome Messages:</strong> Personalized welcome greetings for new members</li>
                 <li><strong>Counting Game:</strong> Interactive counting game to boost member participation and community spirit</li>
                 <li><strong>Twitch Announcements:</strong> Automatic notifications when Twitch streamers go live</li>
@@ -60,8 +60,9 @@ title: "Karl - Discord Bot"
         <div class="project-section">
             <h2>Links</h2>
             <p>
-                <a href="#" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Join Our Discord Server →</a><br>
-                <a href="#" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">GitHub Repository →</a>
+                <a href="https://discord.gg/t44CRPwkmP" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Try it live →</a>
+                <a href="https://knirpslarsi.github.io/karl-bot-legal/terms-of-service" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Terms of Service →</a><br>
+                <a href="https://knirpslarsi.github.io/karl-bot-legal/privacy-policy" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Privacy Policy →</a>
             </p>
         </div>
     </div>
