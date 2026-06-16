@@ -8,7 +8,9 @@ title: Knirpslarsi
         <div class="hero-title-container">
             <h1><span class="animated-text">Knirpslarsi</span></h1>
         </div>
-        <p>I'm a developer passionate about creating beautiful digital experiences. Combining clean code with modern design to bring ideas to life.</p>
+        <p>I'm a student and hobby developer who loves tinkering — whether that's
+        building apps, crafting Minecraft modpacks, or keeping my homelab running.
+        I make things because I enjoy it, and sometimes I even stream it.</p>
         <div class="btn-group">
             <a href="/about" class="btn btn-primary">Get to Know Me</a>
             <a href="/projects" class="btn btn-secondary">See My Work</a>

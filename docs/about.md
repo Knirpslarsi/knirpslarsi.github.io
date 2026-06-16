@@ -7,25 +7,35 @@ title: About
     <div class="container">
         <h2>About Me</h2>
         <div class="text-content">
-            <p>Welcome! I'm a creative developer with a passion for building exceptional digital experiences. I believe that great technology should be both powerful and beautiful.</p>
+            <p>Hey, I'm Knirpslarsi — a student, hobby developer, and general
+            tech tinkerer from Bavaria. I build things because I find it fun,
+            not because I have to.</p>
 
-            <h3>My Journey</h3>
-            <p>My path in tech has been driven by curiosity and a desire to learn. Every project teaches me something new, and I embrace challenges as opportunities to grow. From my first "Hello World" to complex web applications, it's been an exciting ride.</p>
-            
-            <h3>What I'm Good At</h3>
-            <ul>
-                <li>Frontend Development & Modern Web Technologies</li>
-                <li>User Interface & Experience Design</li>
-                <li>Full-Stack Web Applications</li>
-                <li>Performance Optimization</li>
-                <li>Open Source Development</li>
-            </ul>
-            
-            <h3>Beyond Code</h3>
-            <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing knowledge with other developers. I'm passionate about mentoring and helping others grow in their tech journey.</p>
-            
-            <h3>Let's Collaborate</h3>
-            <p>I'm always interested in meaningful projects and connections. Whether you have an exciting idea, need a collaborator, or just want to chat about tech—let's get in touch!</p>
+            <h3>What I'm Into</h3>
+            <p>My days are split between writing code, putting together Minecraft
+            modpacks, and keeping my homelab from falling apart. I run my own
+            servers, manage DNS and networking, and self-host whatever I can get
+            my hands on — mostly because I like knowing how things work under
+            the hood.</p>
+
+            <h3>Building Stuff</h3>
+            <p>I develop apps as a hobby, mostly web-based things. This very site
+            is part of that — it runs on my own infrastructure at knirpslarsi.de.
+            Every project is a chance to learn something new, even when (especially
+            when) things break.</p>
+
+            <h3>Minecraft & Modpacks</h3>
+            <p>I spend a good chunk of my free time curating and building Minecraft
+            modpacks. There's something satisfying about getting a hundred mods to
+            actually play nicely together.</p>
+
+            <h3>Streaming</h3>
+            <p>Sometimes I stream on Twitch — whenever the mood hits. No schedule,
+            no pressure. Just me doing whatever I'm currently obsessed with.</p>
+
+            <h3>Get In Touch</h3>
+            <p>If you want to talk tech, collaborate on something, or just hang out
+            — find me on Discord or GitHub. I don't bite.</p>
         </div>
     </div>
 </section>
