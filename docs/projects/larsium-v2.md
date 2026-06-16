@@ -12,8 +12,8 @@ title: "Larsium V2 - Discord Bot"
 
 <div class="project-header">
     <div class="container">
-        <h1>Project One</h1>
-        <p>A modern web application built with cutting-edge technologies. This project showcases my skills in frontend development and user interface design.</p>
+        <h1>Larsium V2 - Discord Bot</h1>
+        <p>A powerful and feature-rich Discord bot designed to enhance community management, engagement, and automation. Featuring moderation tools, interactive games, and streamlined server administration.</p>
     </div>
 </div>
 
@@ -21,51 +21,50 @@ title: "Larsium V2 - Discord Bot"
     <div class="container project-content">
         <div class="project-section">
             <h2>Overview</h2>
-            <p>Project One is a comprehensive web application designed to demonstrate modern development practices. The project combines beautiful UI with robust backend systems to create a seamless user experience.</p>
-        </div>
-
-        <div class="project-section">
-            <h2>Technologies Used</h2>
-            <div class="tech-tags">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">TypeScript</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">MongoDB</span>
-                <span class="tech-tag">Tailwind CSS</span>
-            </div>
+            <p>Larsium V2 is a comprehensive Discord bot built to provide complete server management and community engagement features. From moderation and security to entertainment and announcements, Larsium V2 streamlines server operations while keeping your community engaged and organized.</p>
         </div>
 
         <div class="project-section">
             <h2>Key Features</h2>
             <ul>
-                <li><strong>Responsive Design:</strong> Works flawlessly on all devices and screen sizes</li>
-                <li><strong>Real-time Updates:</strong> Live data synchronization across components</li>
-                <li><strong>Authentication:</strong> Secure user authentication system</li>
-                <li><strong>Performance:</strong> Optimized for speed and efficiency</li>
-                <li><strong>User-Friendly:</strong> Intuitive interface designed for ease of use</li>
+                <li><strong>Moderation System:</strong> Advanced ban system for effective community management and rule enforcement</li>
+                <li><strong>Verification System:</strong> Secure member verification to maintain server safety and community standards</li>
+                <li><strong>Ticket System:</strong> Streamlined support ticket management for handling member requests and issues</li>
+                <li><strong>Code System:</strong> Custom invite codes for community channels with tracking and management</li>
+                <li><strong>Autogramm Cards:</strong> Digital autograph card system for community interaction and engagement</li>
+                <li><strong>Welcome Messages:</strong> Personalized welcome greetings for new members</li>
+                <li><strong>Counting Game:</strong> Interactive counting game to boost member participation</li>
+                <li><strong>Twitch Announcements:</strong> Automatic notifications when Twitch streamers go live</li>
+                <li><strong>Birthday Announcements:</strong> Automated birthday celebrations and shout-outs for community members</li>
             </ul>
         </div>
 
         <div class="project-section">
-            <h2>Challenges & Solutions</h2>
-            <p>During development, I faced several challenges that pushed me to find creative solutions:</p>
+            <h2>Technology Stack</h2>
+            <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Discord API</span>
+                <span class="tech-tag">Database Management</span>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h2>Community Features</h2>
+            <p>Larsium V2 combines powerful administrative tools with engaging community features:</p>
             <ul>
-                <li><strong>Performance Optimization:</strong> Implemented code splitting and lazy loading to reduce initial bundle size</li>
-                <li><strong>Real-time Data:</strong> Utilized WebSockets for efficient real-time communication</li>
-                <li><strong>State Management:</strong> Structured Redux store for scalability</li>
+                <li><strong>Server Security:</strong> Comprehensive moderation and verification systems to keep your community safe</li>
+                <li><strong>Member Engagement:</strong> Interactive games, announcements, and special celebrations</li>
+                <li><strong>Support Management:</strong> Efficient ticket system for handling community inquiries</li>
+                <li><strong>Content Discovery:</strong> Automatic Twitch notifications and custom code tracking</li>
             </ul>
         </div>
 
         <div class="project-section">
-            <h2>Results</h2>
-            <p>The project resulted in a robust, scalable application that serves as a portfolio piece for demonstrating full-stack development capabilities. It improved user engagement by 40% and reduced load times by 50% compared to initial prototypes.</p>
-        </div>
-
-        <div class="project-section">
-            <h2>Links</h2>
+            <h2>Join the Community</h2>
             <p>
-                <a href="#" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">View Live Demo →</a><br>
-                <a href="#" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">GitHub Repository →</a>
+                <a href="#" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Join Our Discord Server →</a><br>
+                <a href="https://github.com/Knirpslarsi/larsium-v2-legal/blob/main/TERMS.md" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Terms of Service →</a><br>
+                <a href="https://github.com/Knirpslarsi/larsium-v2-legal/blob/main/PRIVACY.md" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Privacy Policy →</a>
             </p>
         </div>
     </div>
