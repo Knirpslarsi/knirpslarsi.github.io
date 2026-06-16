@@ -62,7 +62,7 @@ title: "Larsium V2 - Discord Bot"
         <div class="project-section">
             <h2>Join the Community</h2>
             <p>
-                <a href="https://discord.gg/hHunMTsjfT" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Try it live →</a>
+                <a href="https://discord.gg/hHunMTsjfT" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Try it live →</a><br>
                 <a href="https://knirpslarsi.github.io/larsium-v2-legal/terms-of-service" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Terms of Service →</a><br>
                 <a href="https://knirpslarsi.github.io/larsium-v2-legal/privacy-policy" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Privacy Policy →</a>
             </p>

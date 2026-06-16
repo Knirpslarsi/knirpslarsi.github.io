@@ -21,11 +21,11 @@ social:
 # Projects (einfach neue hinzufügen oder auskommentieren)
 projects:
   - id: "larsium-v2"
-    title: "Larsium V2 - Discord Bot"
-    description: "A modern Discord bot with focus of Simplifing Discord Servers."
+    title: "Larsium V2"
+    description: "A multifunctional Discord bot featuring moderation, utility commands, automation, and custom server management tools. Built to enhance community engagement and simplify server administration."
   - id: "karl-bot"
     title: "Karl"
-    description: "Info Still in Progress"
+    description: "Discord bot for TakeItIsy featuring a ticket system, counting game, and automated birthday notifications."
   #- id: "project-three"
   #  title: "Project Three"
   #  description: "An open-source contribution that solves real-world problems."

@@ -60,7 +60,7 @@ title: "Karl - Discord Bot"
         <div class="project-section">
             <h2>Links</h2>
             <p>
-                <a href="https://discord.gg/t44CRPwkmP" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Try it live →</a>
+                <a href="https://discord.gg/t44CRPwkmP" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Try it live →</a><br>
                 <a href="https://knirpslarsi.github.io/karl-bot-legal/terms-of-service" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Terms of Service →</a><br>
                 <a href="https://knirpslarsi.github.io/karl-bot-legal/privacy-policy" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Privacy Policy →</a>
             </p>
