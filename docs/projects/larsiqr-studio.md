@@ -147,6 +147,7 @@ title: "LarsiQR Studio"
         <div class="project-section">
             <h2>Links</h2>
             <p>
+                <a href="https://discord.gg/hHunMTsjfT" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">Join the Community →</a><br>
                 <a href="https://github.com/KnirpsLarsi/LarsiQR-Studio" style="color: var(--accent-purple); text-decoration: none; font-weight: 600;">GitHub Repository →</a>
             </p>
         </div>
