@@ -7,6 +7,9 @@ theme: null
 # Markdown processor
 markdown: kramdown
 
+# Maintenance mode
+maintenance: true
+
 # Build settings
 exclude:
   - .gitignore
